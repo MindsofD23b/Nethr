@@ -1,0 +1,35 @@
+name: Push to Main
+run-name: ${{ github.actor }} push to main
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  push-to-main:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   
+      actions: read
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: github-actions[bot] use account
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge dev to main
+        run: |
+          git checkout main
+          git merge origin/dev --no-edit
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
