@@ -44,4 +44,4 @@ jobs:
         run: ls -la
 
       - name: Done
-      - run: echo "Job finished with status: ${{ job.status }}"
+        run: echo "Job finished with status: ${{ job.status }}"
