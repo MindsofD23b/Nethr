@@ -21,8 +21,6 @@ jobs:
         with:
           fetch-depth: 0 
 
-      - name: Confirm who the workflow is running as
-
       - name: github-actions[bot] use account
         run: |
           git config user.name "github-actions[bot]"
