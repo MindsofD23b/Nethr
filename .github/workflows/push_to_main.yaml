@@ -43,4 +43,5 @@ jobs:
       - name: List repository files
         run: ls -la
 
+      - name: Done
       - run: echo "Job finished with status: ${{ job.status }}"
