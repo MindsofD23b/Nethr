@@ -46,5 +46,5 @@ Implemented the user interface and ensured a smooth, responsive user experience.
 ---
 
 <a href="https://github.com/MindsofD23b/Nethr/graphs/contributors">
-  <img src="https://contrib.rocks/image?&columns=25&max=10000&&repo=MindsofD23b/Nethr" />
+  <img src="https://contrib.rocks/image?repo=MindsofD23b/Nethr" />
 </a>
