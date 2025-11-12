@@ -22,9 +22,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Change directory
-        run: cd ./srv
       
       - name: Print working directory
         run: pwd
