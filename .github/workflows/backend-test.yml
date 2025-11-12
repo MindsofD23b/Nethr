@@ -2,9 +2,13 @@ name: Run Backend Tests
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
+
+defaults:
+  run:
+    working-directory: ./srv
 
 jobs:
   test:
