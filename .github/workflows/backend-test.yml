@@ -23,6 +23,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Change directory
+        run: cd ./srv
+      
+      - name: Print working directory
+        run: pwd
+
+      - name: List files in srv
+        run: ls -la
+
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
@@ -53,4 +62,3 @@ jobs:
           echo "Running tests..."
           npm test
           echo "Tests finished!"
-
