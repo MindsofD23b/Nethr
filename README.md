@@ -1,4 +1,4 @@
-## What is Nethr.io （づ￣ 3 ￣）づ ╭❤️ ～
+## What is Nethr.io 
 
 **Nethr.io** is your all-in-one platform for hosting and managing **Minecraft servers** - without the headaches.  
 Spin up powerful, customizable servers in minutes, monitor their performance in real time, and keep full control right from your dashboard.
@@ -15,7 +15,14 @@ Whether you’re running a small survival world for friends or managing a large 
 In short, Nethr.io makes server management effortless, powerful, and fun - so you can focus on what really matters: playing, building, and creating with your community.
 ```
 
-## 👥 Contributors (〃￣︶￣)人(￣︶￣〃)
+
+
+<br>
+## 📝 Documentaitions
+<br>
+
+
+## 👥 Contributors 
 
 ### 1. Jamie Poeffel (DevOps)
 
