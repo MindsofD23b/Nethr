@@ -15,13 +15,13 @@ Whether you’re running a small survival world for friends or managing a large 
 In short, Nethr.io makes server management effortless, powerful, and fun - so you can focus on what really matters: playing, building, and creating with your community.
 ```
 
+
 <br>
+## 📝 Documentaitions
 <br>
 
-## 📝 Documentations
 
-
-## 👥 Contributors
+## 👥 Contributors 
 
 ### 1. Jamie Poeffel (DevOps)
 
