@@ -22,39 +22,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
-      - name: Print working directory
-        run: pwd
-
-      - name: List files in srv
-        run: ls -la
-
+    
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Print working directory
-        run: pwd
-
-      - name: List files in srv
-        run: ls -la
-
-      - name: Print Node.js version
-        run: node -v
-
-      - name: Print npm version
-        run: npm -v
-
       - name: Install dependencies
-        run: |
-          echo "Installing dependencies..."
-          npm install
-          echo "Installed dependencies:"
-          ls -la node_modules
+        run: npm install
 
       - name: Run tests
-        run: |
-          echo "Running tests..."
-          npm test
-          echo "Tests finished!"
+        run: npm test
